@@ -9,7 +9,7 @@ if(input == 0){
     alert("Dữ liệu không hợp lệ");
 }else{
     for(let i = 0;i < arr.length;i++){
-        if(arr[i] > 10){
+        if(arr[i] >= 10){
             console.log(arr[i]);
         }
     }
